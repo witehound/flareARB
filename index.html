@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="arb.css">
+    <title>Flare Finance arbot</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Flare Finance <span class="headerspan">Arbot</span> 
+        </div>
+        <div class="application">
+            <div class="title">
+                <div class="titleholder">
+                    SGB >> EXFI >> USDT >> SGB
+                </div>   
+            </div>
+            <div class="holder">
+                <div class="sgbinit">
+                    <input type="number" class = "sgbstart" placeholder="Initial SGB Amount">
+                </div>
+            </div>
+            <div class="holder">
+                <p>FlareX SGB >> EXFI</p>  
+                <div class="space">
+
+                </div>
+                <span >
+                    <input type="number" class="flareexfi" placeholder="SGB to EXFI">
+                </span>
+            </div>
+            <div class="holder">
+                <p>Bitrue EXFI >> USDT</p>  
+                <div class="space">
+
+                </div>
+                <span >
+                    <input type="number" class="bitrueusdt" placeholder="EXFI to USDT">
+                </span>
+            </div>
+            <div class="holder">
+                <p>Bitrue USDT >> SGB</p>  
+                <div class="space">
+
+                </div>
+                <span >
+                    <input type="number" class="bitruesgb" placeholder="EXFI to USDT">
+                </span>
+            </div>
+            <div class="btn">
+                <button class="btncrunch">Crunch Numbers</button>
+            </div>
+            <div class="result">
+                <div class="display">
+                   <p class="displaystatus"> Your initial SGB value is <span class="sgbinitp">Unknown</span>,
+                     Your Final SGB value will be <span class="sgbfinalep">Unknown</span>,
+                      PNL would be <span class="sgbstatus">Unknown</span>.
+                   </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="arb.js"></script
+</body>
+</html>
